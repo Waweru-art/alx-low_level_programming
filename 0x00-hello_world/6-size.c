@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -Entry
- *Return: Always 0 (success)
+ * main -Entry point
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -9,6 +9,6 @@ int main(void)
 	printf("size of an int: %zu byte(s)\n", sizeof(int));
 	printf("size of a long int: %zu byte(s)\n", sizeof(long int));
 	printf("size of a long long int: %zu byte(s)\n", sizeof(long long int));
-	pritf("size of a float: %zu byte(s)\n, sizeof(float));
+	printf("size of a float: %zu byte(s)\n", sizeof(float));
 	return (0);
 }
